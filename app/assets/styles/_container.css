@@ -1,0 +1,13 @@
+.container {
+  margin: auto;
+  padding-inline: theme("spacing.4");
+  max-width: theme("maxWidth.7xl");
+
+  @screen sm {
+    padding-inline: theme("spacing.6");
+  }
+
+  @screen lg {
+    padding-inline: theme("spacing.8");
+  }
+}
